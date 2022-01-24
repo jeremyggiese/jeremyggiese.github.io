@@ -3,101 +3,97 @@
 <!-- html --> 
 <!-- some code from https://github.com/PeterMorganGH/resume-website-template/blob/master/skeleton/index.html-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+<link rel="stylesheet" href="./css/bootstrap.css"
 <link rel="stylesheet" href="./open-iconic-master/font/css/open-iconic-bootstrap.css">
 
 
 <body>
-    <div class="container">
-      <div class="center-align mb-3">
+    <div class="container-fluid">
+      <div>
         <img style="width:30%; height: auto;"" src="./media/photo.jpg"/>
         <h1>Jeremy G. Giese</h1>
         <a href="mailto:jeremyggiese@gmail.com"><span class="oi oi-envelope-closed" title="envelope-closed" aria-hidden="true"></span></a>
         <a href="https://www.linkedin.com/in/jeremyggiese/"><span class="oi oi-circle-check" aria-hidden="true"></span></a>
-        <a href="https://github.com/jeremyggiese"><span class="oi oi-briefcase" aria-hidden="true"></span></a>      
-      </div>
+        <a href="https://github.com/jeremyggiese"><span class="oi oi-briefcase" aria-hidden="true"></span></a>
+      </div>        
       <hr>
+      <div class="container-fluid">
+      <div class="row">
       <h2>Work Experience:</h2>
+      </div>
         <div class="row">
           <div class="column">
             <h3>IBM</h3>
             <ul class="list-unstyled">
               <li><strong>Testing Specialist</strong> <small class="accent">Aug 2020 &#8211; Present</small></li>
             </ul>
-            <ul class="itemize1">
-                <li class="itemize">Tested E2E processes on a client project.
+            <ul>
+                <li>Tested E2E processes on a client project.
                 </li>
-                <li class="itemize">Developed tests in Jira to validate new features based on User Stories.
+                <li >Developed tests in Jira to validate new features based on User Stories.
                 </li>
-                <li class="itemize">Discussed intent of User Stories with Developers and Requirements teams.
+                <li >Discussed intent of User Stories with Developers and Requirements teams.
                 </li>
-                <li class="itemize">Attended requirements gathering meetings to understand what the client expected.
+                <li >Attended requirements gathering meetings to understand what the client expected.
                 </li>
-                <li class="itemize">Wrote bugs when the product was not working or did not match requirements.
+                <li >Wrote bugs when the product was not working or did not match requirements.
                 </li>
-                <li class="itemize">Developed Automated Testing to validate E2E process in specific flows.
+                <li >Developed Automated Testing to validate E2E process in specific flows.
                 </li>
-                <li class="itemize">Developed script to reduce manual input.
+                <li >Developed script to reduce manual input.
                 </li>
-                <li class="itemize">Managed Deployed scripts and notified relevant parties if any errors occurred.</li></ul>
+                <li >Managed Deployed scripts and notified relevant parties if any errors occurred.
+                </li>
+            </ul>
+          </div>
           </div>
           <div class="row">
             <div class="one-half column">
               <h3>Marshall University</h3>
               <ul class="list-unstyled">
                 <li><strong>Intern with Department of Education of West Virginia</strong> <small class="accent">July 2019 &#8211; January 2020</small></li>
-                <ul class="itemize1">
-                <li class="itemize">Validated the functionality of applications before they were released to users.
+                <ul >
+                <li>Validated the functionality of applications before they were released to users.
                 </li>
-                <li class="itemize">Determined a standard for internal cybersecurity testing and performed testing against one Domain.
+                <li>Determined a standard for internal cybersecurity testing and performed testing against one Domain.
                 </li>
-                <li class="itemize">Developed  an  Automated  Penetration  Testing  program,  which  runs  against  any  domain  and
+                <li>Developed  an  Automated  Penetration  Testing  program,  which  runs  against  any  domain  and
                 determines the security of the domain.                                                                                          
                 </li>
-                <li class="itemize">Dockerized Penetration Testing program.
+                <li>Dockerized Penetration Testing program.
                 </li>
-                <li class="itemize">Designed Database to hold previous test sessions.
+                <li>Designed Database to hold previous test sessions.
                 </li>
-                <li class="itemize">Created Laravel interface to start tests and add new targets.</li></ul>
-
+                <li>Created Laravel interface to start tests and add new targets.
+                </li>
+              </ul>
             </div>
         </div>
+      </div> 
     <div>        
       <h2>Education</h2>
       <h3>Marshall University</h3>
       <ul class="list-unstyled">
         <li><strong>B.S. Computer Science</strong> <small class="accent">Aug 2016 &#8211; May 2020</small></li>
+        <li>Capstone Project:
+          Determined requirements based on client&#8217;s vision. Decided on Best Practices for the
+                    application and team. Finally, delivered a Unity application which visualizes data structures in AR
+                    to aid in-course explanation. Published in [<a 
+          href="doi.org/10.1109/GHTC46280.2020.9342932" >2020 IEEE Global Humanitarian Technology Conference
+                    (GHTC)</a>]</li>
       </ul>    
     </div>
-    <div>
-  <!-- <h2>Skills</h2>
-    <div class="row">
-      <div class="three columns">
-        <strong>Category</strong>
-      </div> 
-      <div class="nine columns">
-        Skill 1, Skill 2, Skill 3, Skill 4
+  
+  <h2>Skills</h2>
+      <div>
+        <strong>Technologies:</strong> C, C++, Java, Python, Shell Script, SQL, PHP, Laravel, AWS, Google Cloud Platform, GoLang, Swift, Git.
       </div>
+      <h3>Hobbies</h3>
+      Sewing, Knitting, Reading, Cooking, Vehicle Repair, Appliance repair.
     </div>
-    </div>
-Capstone Project:
-Determined requirements based on client&#8217;s vision. Decided on Best Practices for the
-          application and team. Finally, delivered a Unity application which visualizes data structures in AR
-          to aid in-course explanation. Published in [<a 
-href="doi.org/10.1109/GHTC46280.2020.9342932" >2020 IEEE Global Humanitarian Technology Conference
-          (GHTC)</a>]
-          
-          Core Skills:
-Technologies:
-C, C++, Java, Python, Shell Script, SQL, PHP, Laravel, AWS, Google Cloud Platform, GoLang,
-              Swift, Git
-
-General Skills:
-Communication,     Troubleshooting,     Implementing     design     from     theory     or
-              requirements, advanced mathematics, automation
- -->
-
+   
     </body>
 </html> 
 
